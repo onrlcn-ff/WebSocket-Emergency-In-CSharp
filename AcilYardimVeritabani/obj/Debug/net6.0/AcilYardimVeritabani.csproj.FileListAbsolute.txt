@@ -1,0 +1,14 @@
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\AcilYardimVeritabani.csproj.AssemblyReference.cache
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\AcilYardimVeritabani.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\AcilYardimVeritabani.AssemblyInfoInputs.cache
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\AcilYardimVeritabani.AssemblyInfo.cs
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\AcilYardimVeritabani.csproj.CoreCompileInputs.cache
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\bin\Debug\net6.0\AcilYardimVeritabani.deps.json
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\bin\Debug\net6.0\AcilYardimVeritabani.runtimeconfig.json
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\bin\Debug\net6.0\AcilYardimVeritabani.dll
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\bin\Debug\net6.0\AcilYardimVeritabani.pdb
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\AcilYardimVeritabani.dll
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\refint\AcilYardimVeritabani.dll
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\AcilYardimVeritabani.pdb
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\AcilYardimVeritabani.genruntimeconfig.cache
+C:\Users\FSF\source\repos\AcilYardimUygulamasi\AcilYardimVeritabani\obj\Debug\net6.0\ref\AcilYardimVeritabani.dll
