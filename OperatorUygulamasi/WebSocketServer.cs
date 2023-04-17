@@ -44,6 +44,7 @@ public class WebSocketMiddleware
 
     private async Task HandleWebSocketCommunication(HttpContext context, WebSocket webSocket)
     {
+        Console.WriteLine(" New WebSocket Client Connected.");
         string message = "";
         MessageManager messageManager = new MessageManager();
 

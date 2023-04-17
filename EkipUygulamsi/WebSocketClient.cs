@@ -30,7 +30,7 @@ public class WebSocketClient
                 {
 
                     Console.WriteLine("Görev Bekleniyor...");
-                    string receivedMessage = await ReceiveMessage(clientWebSocket);
+                    string receivedMessage = await MessageManager.ReceiveMessageAsync(clientWebSocket);
                     Console.WriteLine("Received message: " + receivedMessage);
 
                     Console.WriteLine("Görevi Onayla");
@@ -48,7 +48,7 @@ public class WebSocketClient
                             message = "Reddedildi";
                             break;
                     }
-                    await SendMessageAsync(clientWebSocket, $"{name}: {message}");
+                    await MessageManager.SendMessageAsync(clientWebSocket, $"{name}: {message}");
                     await Task.Delay(TimeSpan.FromSeconds(2));
                 }
 
@@ -61,13 +61,9 @@ public class WebSocketClient
         }
     }
 
-    public async Task<string> ReceiveMessage(WebSocket webSocket)
-    {
-        var buffer = new byte[1024];
-        var result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
-        return Encoding.UTF8.GetString(buffer, 0, result.Count);
-    }
-
+}
+public class MessageManager
+{
     public static async Task SendMessageAsync(WebSocket webSocket, string message)
     {
         try
@@ -80,5 +76,13 @@ public class WebSocketClient
         {
             Console.WriteLine($"Mesaj gönderilirken hata oluştu: {ex.Message}");
         }
+    }
+
+    public static async Task<string> ReceiveMessageAsync(WebSocket webSocket)
+    {
+        var buffer = new byte[1024 * 4];
+        var result = await webSocket.ReceiveAsync(new ArraySegment<byte>(buffer), CancellationToken.None);
+        string receivedMessage = Encoding.UTF8.GetString(buffer, 0, result.Count);
+        return receivedMessage;
     }
 }
